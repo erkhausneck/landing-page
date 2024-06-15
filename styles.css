@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111111;
+    color: #DDDDDD;
+    font-family: 'Merriweather';
+    background-image: url('assets/copier.png');
+    background-blend-mode:screen;
+    background-size: 100%;
+    background-repeat: repeat;
+}
+
+h1 {
+    font-family: 'Jacquard 12';
+    font-weight: 400;
+    font-size: 5em;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'Gentium Book Plus';
+    font-size: 1.5em;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-family: 'Gentium Book Plus';
+    margin: -.5em 0 0 0;
+    padding: 0;
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+    text-align: right;
+    display: flex;
+    gap: 1em;
+    margin: 0;
+    padding: 0;
+    font-family: 'Jacquard 12';
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: #DDDDDD;
+    transition: color .3s ease-in-out;
+}
+
+a:hover {
+    color: yellow;
+}
+
+p {
+    margin: 0 0 1em 0;
+    padding-left: .5em;
+    line-height: 1.25em;
+    text-align: left;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 1em;
+    gap: 2em;
+}
+
+.content {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 1em;
+    gap: 1em;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1em;
+
+}
+
+.right {
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    margin-top: -160px;
+    text-align: right;
+}
+ 
+ .footer {
+    display: flex;
+    align-self: flex-end;
+    gap: .5em;
+ }
